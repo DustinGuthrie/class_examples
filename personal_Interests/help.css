@@ -1,0 +1,47 @@
+div {
+  background-color: #e6e6e6;
+  height: 60px;
+}
+div li{
+  display: inline-block;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+#li1 {
+  margin-top: 20px;
+  padding-right: 1050px;
+}
+#li2 {
+  padding-right: 20px;
+}
+.main {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://katejerome.com/wordpress/wp-content/uploads/2012/06/GOT.jpg');
+
+  height: 500px;
+  margin-top: -60px;
+}
+#p1 {
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+#p2{
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -80px;
+}
+#p3{
+  font-size: 30px;
+  margin-top: 300px;
+  text-align: center;
+  margin-top: 340px;
+}
+#p4 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -50px;
+}
