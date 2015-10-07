@@ -1,0 +1,35 @@
+nav{
+  background-color: blue;
+  width: 100%;
+}
+nav ul{
+  display: inline-block;
+  margin: 0;
+}
+nav li{
+  display: inline-block;
+  margin-right: 5px;
+
+}
+nav li a{
+  text-decoration: none;
+
+}
+nav li:hover {
+  background-color: white;
+  color: orange
+}
+section, aside{
+  display: inline-block;
+}
+aside{
+  width: 14;
+
+}
+section{
+  width:70%;
+}
+.image{
+  width: 48;
+  display: inline;
+}
