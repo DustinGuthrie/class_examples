@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  width: 100%;
+  background-color: #000000;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  padding: 10px;
+  /*This will pad al 4 sides*/
+  margin-left: 10px;
+  background-color: red;
+
+}
+nav li > a{
+  text-decoration: none;
+  color: white;
+}
+nav li:hover{
+  background-color: blue;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+/*This is a centering trick and will auto adjust the text <p> section to make even*/
+  /*background-color: yellow;*/
+}
+p {
+  margin: 0;
+  /*Some elements like <p> have a default margin we have to get rid of*/
+}
+section {
+  display: inline-block;
+  width: 20%;
+}
+.cols{
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1{
+  background-color: red;
+  width: 98%;
+}
+.col-2 {
+  vertical-align: top;
+  background-color: pink;
+  width: 49%
+}
+.col-4 {
+  vertical-align: top;
+  background-color: blue;
+  display: inline-block;
+  width: 24%
+}
+.col-8 {
+  background-color: green;
+  width: 11%;
+}
+
+
+
+
+}
