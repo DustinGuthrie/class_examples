@@ -1,7 +1,11 @@
+/*Animations are typically used with a hover - like over navigation
+to make larger/pop or enhance certain elements*/
 }
 .container{
   width: 80%;
   margin: 20px auto;
+  /*This positioning is important for the animation below to work.
+  The container is a parent to the box*/
 }
 .box{
   width: 200px;
