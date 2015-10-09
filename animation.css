@@ -1,0 +1,30 @@
+}
+.container{
+  width: 80%;
+  margin: 20px auto;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /*transition: all .5s ease-in-out;*/
+  /*Not needed above if using animation below*/
+  /*will transition nicely with .5 seconds rotation*/
+  -webkit-animation: demoAnimate 1s infinite;
+
+/*.box:hover{
+  transform: rotate(180deg);
+  width: 400px;
+  height: 400px;
+  background-color: black;*/
+  /*Above would be used all together without demoAnimate*/
+  /*transform: scale(1.5);*/
+/*this will make larger like grow when hovered over*/
+}
+@-webkit-keyframes demoAnimate {
+    0% {background-color: white;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    75% {background-color: red;}
+    100% {background-color: white;}
+}
