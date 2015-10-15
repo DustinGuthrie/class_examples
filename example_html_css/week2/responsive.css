@@ -1,0 +1,52 @@
+nav ul{
+  margin: 0;
+  pading:0;
+}
+header, footer{
+  width: 100%;
+  padding: 0;
+  background-color: gray;
+}
+nav li{
+  display: inline-block;
+  margin-left: 5px;
+}
+nav il:hover{
+  background-color: red;
+}
+nav li > a{
+  color: white;
+  padding: 20px;
+}
+.wrapper {
+  width: 90%;
+  clear: both;
+}
+.wrapper:before{
+  content: '';
+  clear: both;
+  /*This will keep anything from sitting to the left or right side*/
+}
+.wrapper:after{
+  content: '';
+  clear: both;
+    /*This will keep anything from sitting to the left or right side*/
+}
+.content{
+  padding: 15px;
+}
+section, aside{
+  display: inline block;
+  vertical-align: top;
+}
+section {
+  width: 67%;
+}
+aside{
+  width: 32%;
+}
+@media screen and (max-width: 1020px) {
+  section {
+    background-color: red;
+  }
+}
