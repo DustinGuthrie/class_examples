@@ -127,8 +127,8 @@
 //console.log("array", arr);
 //});
 //this passes a new value into this loop and will only run for the length of it
-//and will log the first time 1,2,3
-//second time 0,1,2
+//and will log the first time element 1, element 2,element 3
+//second time array 0, array 1, array 2
 //third time [1,2,3]
 //+++This function(element, index, arr) is ONLY used with ARRAYS+++
 //BIG PICTURE here is when you grab data from a feed you can loop through to pick
